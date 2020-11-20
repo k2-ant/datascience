@@ -343,7 +343,7 @@ h3, h4 { margin-top: 1.5rem !important; }
 
 p { margin-top: 1rem !important; margin-bottom: 1rem !important; }
 
-h1, h2, h3, h4 { font-weight: normal !important; margin-bottom: 0.5rem !important; }
+h1, h2, h3, h4 { font-weight: bold !important; margin-bottom: 0.5rem !important; }
 
 h1 code, h2 code, h3 code, h4 code { font-size: 100%; }
 
@@ -375,7 +375,7 @@ h1:hover .anchor-link, h2:hover .anchor-link, h3:hover .anchor-link, h4:hover .a
 
 .post-meta-title, .post-meta { margin-top: .25em !important; margin-bottom: .25em !important; font-size: 105%; }
 
-.page-description { margin-top: .5rem !important; margin-bottom: .5rem !important; color: #585858; font-size: 115%; }
+.page-description { margin-top: .5rem !important; margin-bottom: .5rem !important; color: #777777; font-size: 115%; }
 
 .category-tags-icon { font-size: 75% !important; padding-left: 0.375em; opacity: 35%; }
 
@@ -416,6 +416,8 @@ table th { text-align: center !important; }
 .output_text.output_execute_result pre { white-space: pre-wrap; }
 
 .svg-icon.orange { width: 30px; height: 23px; }
+
+.svg-icon { border: none !important; }
 
 .code_cell { margin: 1.5rem 0px !important; }
 
