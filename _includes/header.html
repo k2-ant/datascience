@@ -1,4 +1,4 @@
-<header class="site-header" style="background-color: #92A2BA; font-weight: bold;">
+<header class="site-header" style="background-color: #f2f2f2;">
     <div class="wrapper">
       {%- assign default_paths = site.pages | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -8,8 +8,7 @@
   the next line is your 'home' link for the blog (has your name by default, i changed it to say home) 
   you could put your extra link next to it like this:
   -->
-      <a class="site-title" rel="author" href="{{ "/" | relative_url }}">Home</a>
-      <a class="site-title" href="http://yourmain.github.io">MY MAIN GITHUB.IO SITE</a>
+      <a class="site-title" href="http://kblanchard.com">MY MAIN GITHUB.IO SITE</a>
   
       {%- if titles_size > 0 -%}
         <nav class="site-nav">
