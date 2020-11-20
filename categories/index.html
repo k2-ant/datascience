@@ -70,14 +70,29 @@ window.onload = wrap_img;
   the next line is your 'home' link for the blog (has your name by default, i changed it to say home) 
   you could put your extra link next to it like this:
   -->
-      <a class="site-title" href="http://kblanchard.com"><img src="/images/logo.jpg"</a>
+      <a class="site-title" href="http://kblanchard.com">
+        <img src="/images/logo.jpg"
+          style="height: 30px;"
+      </a>
 
-        <nav class="site-nav">
-         
-              <a class="page-link" href=""></a>
+      <nav class="site-nav">
+        <!-- <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="blah blah blah"/>
+            </svg>
+          </span>
+        </label> -->
 
-
-        </nav>
+        <div class="trigger"><!--
+these are your page links on the right hand side
+you could add your extra link here, either beforeor after theor after theor after theor after theor after theor after theor after theor after theor after theor after the-->
+            <a class="page-link" href="/search/">Search</a><!--
+these are your page links on the right hand side
+you could add your extra link here, either beforeor after theor after theor after theor after theor after theor after theor after theor after theor after theor after the-->
+            <a class="page-link" href="/categories/">Tags</a></div>
+      </nav>
     </div><main class="page-content" aria-label="Content">
       <div class="wrapper">
         <div class="home">
