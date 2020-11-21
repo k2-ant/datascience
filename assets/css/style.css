@@ -425,4 +425,6 @@ pre code { font-size: 15px !important; }
 /*----- ADD YOUR STYLES BELOW -------*/
 .social-media-list li a, .pagination li a { border: none !important; }
 
+.post-list li { padding: 10px 20px 10px 20px; box-shadow: 1px 0px 20px 0px #00000033; border-radius: 20px; }
+
 /*# sourceMappingURL=style.css.map */
